@@ -24,5 +24,4 @@ function Store() {
     </div>
   )
 }
-
 export default Store;

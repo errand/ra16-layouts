@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function ShopItem({item}) {
   return (
     <div className="item">
@@ -8,4 +10,8 @@ export default function ShopItem({item}) {
       <button>Add to cart</button>
     </div>
   )
+}
+
+ShopItem.propTypes = {
+  item: PropTypes.object.isRequired
 }
